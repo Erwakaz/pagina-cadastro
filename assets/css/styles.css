@@ -1,0 +1,88 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+:root{
+    --background-color: #ddd;
+    --title-color: #0099ff;
+}
+h1{
+    font-size: 18px;
+    color: var(--title-color);
+    font-weight: 700;
+}
+html,body{
+    background-color: var(--background-color);
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 90%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+form{
+    width: 70%;
+    max-width: 768px; 
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 10px;
+}
+h1.title-cadastro{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 28px;
+    padding-top: 20px;
+    font-weight: 400;
+}
+form fieldset{
+    border:none;
+}
+form fieldset legend{
+    padding-left: 10px;
+    text-align:center;
+}
+form fieldset label{
+    margin: 5px;
+    margin-left: 10px;
+    color: var(--title-color);
+    font-weight: 400;
+}
+form fieldset input{
+    height: 35px;
+    padding-left: 15px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 400;
+    background-color: #ddd;
+}
+
+
+form .field-group{
+    display: flex;
+    flex-direction: row;
+}
+form .field{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 5px;
+}
+form button{
+    width: 260px;
+    height: 40px;
+    background-color:var(--title-color);
+    border-radius: 5px;
+    color:#fff;
+    font-weight: 700;
+    font-size: 16px;
+    border:0;
+    margin-top: 24px;
+    margin-bottom: 25px;
+
+}
+form button:hover{
+    background-color: #0077dd;
+    transition: background-color 400ms;
+}
+

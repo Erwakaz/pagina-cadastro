@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width initial-scale= 1.0">
+    <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    
+    <title>Formulário</title>
+</head>
+<body>
+    <section>
+        <div class="container">
+            <h1 class="title-cadastro">Cadastrar animal perdido</h1>
+            <form action="">
+                <fieldset>
+                    <legend><h1>Dados do dono</h1></legend> 
+                    <div class="field-group">
+                         
+                        <div class="field">
+                            <label for="name">Nome: </label>
+                            <input type="text" name="name" placeholder="Nome completo" required>
+                        </div>
+                        <div class="field">
+                            <label for="email">E-mail: </label>
+                            <input type="email" name="email" placeholder="email@email.com" required>
+                        </div>
+                    </div>
+                    <div class="field-group">
+                        <div class="field">
+                            <label for="fone-cel">Telefone: </label>
+                            <input type="fone" name="fone-cel" placeholder="(99)9 0000-0000" required>
+                        </div>
+                        <div class="field">
+                            <label for="endereco">Endereço: </label>
+                            <input type="text" name="endereco" placeholder="Endereço" required>
+                        </div>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend><h1>Dados do pet</h1></legend> 
+                    <div class="field-group">
+                         
+                        <div class="field">
+                            <label for="name-pet">Nome: </label>
+                            <input type="text" name="name-pet" placeholder="Nome do pet" required>
+                        </div>
+                        <div class="field">
+                            <label for="raca-pet">Raça: </label>
+                            <input type="text" name="email" placeholder="Pitbull" required>
+                        </div>
+                    </div>
+                    <div class="field-group">
+                        <div class="field">
+                            <label for="idade-pet">Idade: </label>
+                            <input type="number" class="input-idade" name="idade-pet" placeholder="Ex. 2 anos" required>
+                        </div>
+                        <div class="field">
+                            <label for="foto-pet">foto: </label>
+                            <input type="text" name="endereco" required>
+                        </div>
+                    </div>
+                    <button type="submit">Enviar</button>
+                </fieldset>
+                
+            </form>
+        </div>
+    </section>
+
+
+
+</body>
+</html>
